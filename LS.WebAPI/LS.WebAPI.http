@@ -1,0 +1,6 @@
+@LS.WebAPI_HostAddress = http://localhost:5010
+
+GET {{LS.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
