@@ -11,7 +11,8 @@ builder.Services.AddCors(options =>
             .WithOrigins(
                 "http://localhost:5173",
                 "http://localhost:3000",
-                "https://legal-nine-sooty.vercel.app/"
+                "https://legal-nine-sooty.vercel.app/",
+                "https://legalsetuwebapi-1.onrender.com/api/Chat"
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
